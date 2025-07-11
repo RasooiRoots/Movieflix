@@ -1,11 +1,5 @@
 # Movieflix
-website for watching movies 
-git init
-git remote add origin https://github.com/YOUR_USERNAME/movieflix.git
-git add .
-git commit -m "Initial upload"
-git branch -M main
-git push -u origin main
+website for watching movies
 <!-- index.html (Merged: Home + Movie List + Watch Page) -->
 <!DOCTYPE html>
 <html lang="en">
@@ -67,8 +61,6 @@ git push -u origin main
       { title: "Spider-Man: No Way Home", id: "JfVOs4VSpmA" },
       { title: "Drishyam 2", id: "lX_2t5fN81g" },
       { title: "Avatar: The Way of Water", id: "d9MyW72ELq0" },
-
-      // Additional movies
       { title: "Jawan", id: "COv52Qyctws" },
       { title: "Gully Boy", id: "JfbXC1_Jv3s" },
       { title: "Brahmastra", id: "gkTzEkQY-fs" },
@@ -78,7 +70,24 @@ git push -u origin main
       { title: "Black Panther", id: "xjDjIWPwcPU" },
       { title: "No Time to Die", id: "BIhNsAtPbPI" },
       { title: "Tenet", id: "L3pk_TBkihU" },
-      { title: "The Batman", id: "mqqft2x_Aa4" }
+      { title: "The Batman", id: "mqqft2x_Aa4" },
+      { title: "MS Dhoni: The Untold Story", id: "6L6XqWoS8tw" },
+      { title: "Sanju", id: "1J76wN0TPI4" },
+      { title: "Dangal", id: "x_7YlGv9u1g" },
+      { title: "Bahubali 2", id: "G62HrubdD6o" },
+      { title: "War", id: "tQ0mzXRk-oM" },
+      { title: "Doctor Strange", id: "aWzlQ2N6qqg" },
+      { title: "Iron Man", id: "8ugaeA-nMTc" },
+      { title: "Captain Marvel", id: "Z1BCujX3pw8" },
+      { title: "Thor: Love and Thunder", id: "Go8nTmfrQd8" },
+      { title: "Bhediya", id: "odM92ap8_c0" },
+      { title: "Rocky Aur Rani Kii Prem Kahaani", id: "K-Q5JRhLz2U" },
+      { title: "Kalank", id: "UmhXhTmP0HQ" },
+      { title: "Raazi", id: "vn3jHh2z6xU" },
+      { title: "URI: The Surgical Strike", id: "JQzDujMz7Hk" },
+      { title: "Dil Bechara", id: "GODAlxW5Pes" },
+      { title: "Article 15", id: "IUgBG8_3qsM" },
+      { title: "Badla", id: "aQNMsw8LJJ0" }
     ];
 
     const userUploaded = JSON.parse(localStorage.getItem("movies") || "[]");
