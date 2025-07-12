@@ -1,6 +1,5 @@
 #Movieflix
 website for watching movies
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -38,10 +37,7 @@ website for watching movies
       <div class="movie-card bg-gray-800 rounded-lg overflow-hidden" data-title="the dark knight">
         <img src="https://img.youtube.com/vi/EXeTwQWrcwY/0.jpg" alt="The Dark Knight" class="w-full">
         <div class="p-4">
-          <h3 class="text-lg font-semibold">The Dark Knight</h3>
-          <a href="watch.html?id=EXeTwQWrcwY" class="text-red-400 hover:underline">Watch Now</a>
-        </div>
-      </div>
+          
 
       <!-- Copy-paste your other 49 movie cards here, use format above -->
 
